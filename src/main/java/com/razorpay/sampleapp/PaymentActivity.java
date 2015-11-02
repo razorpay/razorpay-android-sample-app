@@ -36,7 +36,7 @@ public class PaymentActivity extends Activity
         try{
           JSONObject options = new JSONObject("{" +
             "description: 'Demoing Charges'," +
-            "image: 'https://i.imgur.com/3g7nmJC.png'," +
+            "image: 'https://rzp-mobile.s3.amazonaws.com/images/rzp.png'," +
             "currency: 'INR'}"
           );
 
