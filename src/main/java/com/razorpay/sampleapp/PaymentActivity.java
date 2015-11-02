@@ -12,7 +12,7 @@ import org.json.JSONObject;
 
 public class PaymentActivity extends Activity
 {
-  final String public_key = "rzp_test_1DP5mmOlF5G5ag";
+  final String public_key = "rzp_live_ILgsfZCZoFIKMb";
 
   public PaymentActivity(){}
 

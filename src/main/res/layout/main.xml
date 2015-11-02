@@ -91,6 +91,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:text="This is a real transaction"
+                    android:id="@+id/warning"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="0dp"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:text="Purchase"
                     android:id="@+id/pay_btn"
                     android:textSize="14sp"
