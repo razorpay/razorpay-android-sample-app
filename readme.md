@@ -2,7 +2,8 @@
 
 # Razorpay's Sample Android App
 
-This repository demonstrates how to integrate Razorpay's Android SDK.
+This repository demonstrates how to integrate Razorpay's Android SDK.    
+The apk built with code from this repository is published on the [Play Store](https://play.google.com/store/apps/details?id=com.razorpay.sampleapp).
 
 ## Features
 
