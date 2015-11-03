@@ -40,7 +40,7 @@ public class PaymentActivity extends Activity
             "currency: 'INR'}"
           );
 
-          options.put("amount", "500");
+          options.put("amount", "100");
           options.put("name", "Razorpay Corp");
           options.put("prefill", new JSONObject("{email: 'sm@razorpay.com', contact: '9876543210'}"));
 
