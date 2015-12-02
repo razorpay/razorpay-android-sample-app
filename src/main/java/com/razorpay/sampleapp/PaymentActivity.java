@@ -43,7 +43,7 @@ public class PaymentActivity extends Activity
      */
     final Activity activity = this;
 
-    final CheckoutFragment co = new CheckoutFragment();
+    final Checkout co = new Checkout();
     co.setPublicKey(public_key);
 
     try{
@@ -63,5 +63,13 @@ public class PaymentActivity extends Activity
       Toast.makeText(activity, e.getMessage(), Toast.LENGTH_SHORT).show();
       e.printStackTrace();
     }
+  }
+
+  public void onPaymentSuccess(String razorpayPaymentID){
+    Toast.makeText(this, "Payment Successful: " + razorpayPaymentID, Toast.LENGTH_SHORT).show();
+  }
+
+  public void onPaymentError(int code, String response){
+    Toast.makeText(this, "Payment failed: " + Integer.toString(code) + " " + response, Toast.LENGTH_SHORT).show();
   }
 }
