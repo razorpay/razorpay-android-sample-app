@@ -9,16 +9,13 @@ The apk built with code from this repository is published on the [Play Store](ht
 
 [razorpay.com/mobile](https://razorpay.com/mobile)
 
-## Integration
-
-Latest Version: v0.9.0    
-Documentation: [https://docs.razorpay.com/v1/page/android-sdk-v090](https://docs.razorpay.com/v1/page/android-sdk-v090)
+## Releases | Integration
+Releases are available at [https://github.com/razorpay/razorpay-android-sample-app/releases](https://github.com/razorpay/razorpay-android-sample-app/releases).
 
 ### tl;dr
 
-- Include `razorpay-android.jar` ([download](http://downloads.razorpay.com/0.9.0/razorpay-android.jar)) in your `libs` folder.
+- Include `razorpay-android.jar` ([download](https://github.com/razorpay/razorpay-android-sample-app/releases)) in your `libs` folder.
 - To hand over control to Razorpay's SDK for collecting payment, refer to [PaymentActivity.java](https://github.com/razorpay/razorpay-android-sample-app/blob/master/src/main/java/com/razorpay/sampleapp/PaymentActivity.java)
-- To get back control from Razorpay once payment has succeeded or failed, refer to [CheckoutFragment.java](https://github.com/razorpay/razorpay-android-sample-app/blob/master/src/main/java/com/razorpay/sampleapp/CheckoutFragment.java)
 - For the permissions required, refer [AndroidManifest.xml](https://github.com/razorpay/razorpay-android-sample-app/blob/master/src/main/AndroidManifest.xml)
 - For proguard rules when you are releasing the app, refer [proguard-project.txt](https://github.com/razorpay/razorpay-android-sample-app/blob/master/proguard-project.txt)
 
