@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.Toast;
 import android.widget.Button;
 import android.view.View.OnClickListener;
+import android.util.Log;
 
 import com.razorpay.Checkout;
 import org.json.JSONObject;
@@ -65,11 +66,31 @@ public class PaymentActivity extends Activity
     }
   }
 
+  /**
+  * The name of the function has to be
+  *   onPaymentSuccess
+  * Wrap your code in try catch, as shown, to ensure that this method runs correctly
+  */
   public void onPaymentSuccess(String razorpayPaymentID){
-    Toast.makeText(this, "Payment Successful: " + razorpayPaymentID, Toast.LENGTH_SHORT).show();
+    try {
+      Toast.makeText(this, "Payment Successful: " + razorpayPaymentID, Toast.LENGTH_SHORT).show();
+    }
+    catch (Exception e){
+      Log.e("com.merchant", e.getMessage(), e);
+    }
   }
 
+  /**
+  * The name of the function has to be
+  *   onPaymentError
+  * Wrap your code in try catch, as shown, to ensure that this method runs correctly
+  */
   public void onPaymentError(int code, String response){
-    Toast.makeText(this, "Payment failed: " + Integer.toString(code) + " " + response, Toast.LENGTH_SHORT).show();
+    try {
+      Toast.makeText(this, "Payment failed: " + Integer.toString(code) + " " + response, Toast.LENGTH_SHORT).show();
+    }
+    catch (Exception e){
+      Log.e("com.merchant", e.getMessage(), e);
+    }
   }
 }
