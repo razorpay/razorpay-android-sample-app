@@ -43,7 +43,7 @@ deploy:
         key-id: $RZP_S3_KEY_ID
         key-secret: $RZP_S3_KEY_SECRET
         file: $WERCKER_CACHE_DIR/razorpay-android-sample-app-v*.apk
-        url: s3://<razorpay-s3-enpoint>/razorpay-android-sample-app-v*.apk
+        url: s3://$RZP_S3_NAME/razorpay-android-sample-app-v*.apk
     # - script:
     #   name: Upload Main APK to S3
     #   code: |
