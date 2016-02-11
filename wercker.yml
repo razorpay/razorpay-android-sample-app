@@ -1,0 +1,58 @@
+box: wercker/android
+build:
+  steps:
+    - script:
+        name: Show base information
+        code: |
+          gradle -v
+          echo $ANDROID_HOME
+          echo $ANDROID_SDK_VERSION
+          echo $ANDROID_BUILD_TOOLS
+          echo $ANDROID_UPDATE_FILTERS
+    - android-sdk-update:
+        filter: tools, platform-tools, build-tools-23.0.1, sysimg-23
+    - setup-android-emulator:
+        target: android-23
+    - script:
+        name: Run Gradle connectedCheck
+        code: |
+          gradle --project-cache-dir=$WERCKER_CACHE_DIR connectedCheck
+    - script:
+        name: Run Gradle Build
+        code: |
+          gradle --full-stackstrace --project-cache-dir=$WERCKER_CACHE_DIR build
+  after-steps:
+    - script:
+        name: Inspect build result
+        code: |
+          ls -a razorpay-android-sample-app/build/apk
+          cp razorpay-android-sample-app/build/apk/*.apk $WERCKER_REPORT_ARTEFACTS_DIR
+    - slack-notifier:
+        url: $SLACK_URL
+        channel: tech_bots
+        username: wercker
+        icon_url: https://cdn.rawgit.com/wantedly/step-pretty-slack-notify/master/icons/$WERCKER_RESULT.jpg
+deploy:
+  steps:
+    - script:
+      name: Setup awscli
+      code: |
+        sudo pip install awscli
+    - koding/s3put@0.0.3:
+      name: Upload Release APK to S3
+        key-id: $S3_KEY_ID
+        key-secret: $S3_KEY_SECRET
+        file: $WERCKER_CACHE_DIR/<razorpay-app>-v*.apk
+        url: s3://<razorpay-s3-enpoint>/<razorpay-app>-v*.apk
+    # - script:
+    #   name: Upload Main APK to S3
+    #   code: |
+    #     cd  app/build/apk
+    #     aws s3 cp <razorpay-apk>-v*.apk s3://<razorpay-endpoint>/<razorpay-apk>.apk --grants "read=uri=http://acs.amazonaws.com/groups/global/AllUsers"
+    #     aws s3 cp <razorpay-debug>-v*.apk s3://<razorpay-endpoint>/<razorpay-demo-apk>.apk --grants "read=uri=http://acs.amazonaws.com/groups/global/AllUsers"
+  after-steps:
+    - slack-notifier:
+        url: $SLACK_URL
+        channel: tech_bots
+        username: wercker
+        icon_url: https://cdn.rawgit.com/wantedly/step-pretty-slack-notify/master/icons/$WERCKER_RESULT.jpg
