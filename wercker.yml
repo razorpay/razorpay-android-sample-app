@@ -1,6 +1,8 @@
 box: wercker/android
 build:
   steps:
+    - install-packages:
+        packages: git openjdk-7-jdk openjdk-7-jre-headless
     - script:
         name: Show base information
         code: |
@@ -20,37 +22,21 @@ build:
     - script:
         name: Run Gradle Build
         code: |
-          gradle --full-stackstrace --project-cache-dir=$WERCKER_CACHE_DIR build
+          gradle assembleRelease
   after-steps:
     - script:
         name: Inspect build result
         code: |
           ls -a razorpay-android-sample-app/build/apk
           cp razorpay-android-sample-app/build/apk/*.apk $WERCKER_REPORT_ARTEFACTS_DIR
-    - slack-notifier:
-        url: $SLACK_URL
-        channel: tech_bots
-        username: wercker
-        icon_url: https://cdn.rawgit.com/wantedly/step-pretty-slack-notify/master/icons/$WERCKER_RESULT.jpg
-deploy:
-  steps:
     - script:
-      name: Setup awscli
-      code: |
-        sudo pip install awscli
-    - koding/s3put@0.0.3:
-      name: Upload Release APK to S3
-        key-id: $RZP_S3_KEY_ID
-        key-secret: $RZP_S3_KEY_SECRET
-        file: $WERCKER_CACHE_DIR/razorpay-android-sample-app-v*.apk
-        url: s3://$RZP_S3_NAME/razorpay-android-sample-app-v*.apk
-    # - script:
-    #   name: Upload Main APK to S3
-    #   code: |
-    #     cd  app/build/apk
-    #     aws s3 cp <razorpay-apk>-v*.apk s3://<razorpay-endpoint>/<razorpay-apk>.apk --grants "read=uri=http://acs.amazonaws.com/groups/global/AllUsers"
-    #     aws s3 cp <razorpay-debug>-v*.apk s3://<razorpay-endpoint>/<razorpay-demo-apk>.apk --grants "read=uri=http://acs.amazonaws.com/groups/global/AllUsers"
-  after-steps:
+        name: Sign APK with jarsigner
+        code: |
+          jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ../KEYSTORE/razorpay-android-sample-app.jks -storepass $KEYSTORE_PASSWD -keypass $PRIVATE_KEY_PASSWD build/outputs/apk/sample-old-release-unsigned.apk razorpay-android-sample-app
+    - script:
+        name: zipalign
+        code: |
+          zipalign -v 4 checkout-app/build/outputs/apk/checkout-app-release-unsigned.apk final-release-signed-aligned.apk
     - slack-notifier:
         url: $SLACK_URL
         channel: tech_bots
