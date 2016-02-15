@@ -22,21 +22,19 @@ build:
     - script:
         name: Run Gradle Build
         code: |
+          cd $WERCKER_CACHE_DIR/sample-app
           gradle assembleRelease
   after-steps:
     - script:
-        name: Inspect build result
-        code: |
-          ls -a razorpay-android-sample-app/build/apk
-          cp razorpay-android-sample-app/build/apk/*.apk $WERCKER_REPORT_ARTEFACTS_DIR
-    - script:
         name: Sign APK with jarsigner
         code: |
+          cd $WERCKER_CACHE_DIR/sample-app
           jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ../KEYSTORE/razorpay-android-sample-app.jks -storepass $KEYSTORE_PASSWD -keypass $PRIVATE_KEY_PASSWD build/outputs/apk/sample-old-release-unsigned.apk razorpay-android-sample-app
     - script:
         name: zipalign
         code: |
-          zipalign -v 4 checkout-app/build/outputs/apk/checkout-app-release-unsigned.apk final-release-signed-aligned.apk
+          cd $WERCKER_CACHE_DIR
+          zipalign -v 4 sample-app/build/outputs/apk/sample-old-release-unsigned.apk sample-final-release-signed-aligned.apk
     - slack-notifier:
         url: $SLACK_URL
         channel: tech_bots
