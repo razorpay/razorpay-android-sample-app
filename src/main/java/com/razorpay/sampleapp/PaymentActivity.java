@@ -8,7 +8,9 @@ import android.widget.Button;
 import android.view.View.OnClickListener;
 import android.util.Log;
 
+import com.crashlytics.android.Crashlytics;
 import com.razorpay.Checkout;
+import io.fabric.sdk.android.Fabric;
 import org.json.JSONObject;
 
 public class PaymentActivity extends Activity
@@ -20,6 +22,7 @@ public class PaymentActivity extends Activity
   public void onCreate(Bundle savedInstanceState)
   {
     super.onCreate(savedInstanceState);
+    Fabric.with(this, new Crashlytics());
     setContentView(R.layout.main);
 
     // payment button created by you in xml layout

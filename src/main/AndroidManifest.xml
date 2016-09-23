@@ -11,6 +11,9 @@
             </intent-filter>
         </activity>
         <activity android:name="com.razorpay.CheckoutActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="0690e21ca12465fe7f3991b05d45fef1cf97758a" />
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
