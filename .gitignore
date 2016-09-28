@@ -17,7 +17,8 @@ local.properties
 .idea/tasks.xml
 .idea/.name
 .idea/compiler.xml
-.idea/copyright/profiles_settings.xml
+.idea/copyright/
+.idea/runConfigurations.xml
 .idea/encodings.xml
 .idea/misc.xml
 .idea/modules.xml
