@@ -6,8 +6,6 @@
     android:versionName="1.5"
     >
 
-    <!-- INTERNET permission is required for SDK to function -->
-    <uses-permission android:name="android.permission.INTERNET" />
     <!-- Add the RECEIVE_SMS permission to enable OTP reading -->
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
 
