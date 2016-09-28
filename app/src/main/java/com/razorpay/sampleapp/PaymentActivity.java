@@ -8,10 +8,11 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.razorpay.Checkout;
+import com.razorpay.PaymentResultListener;
 
 import org.json.JSONObject;
 
-public class PaymentActivity extends Activity {
+public class PaymentActivity extends Activity implements PaymentResultListener {
     private static final String TAG = PaymentActivity.class.getSimpleName();
 
     @Override
@@ -33,17 +34,11 @@ public class PaymentActivity extends Activity {
 
     public void startPayment() {
         /**
-         * Replace with your public key
-         */
-        final String public_key = "rzp_live_ILgsfZCZoFIKMb";
-
-        /**
          * You need to pass current activity in order to let Razorpay create CheckoutActivity
          */
         final Activity activity = this;
 
         final Checkout co = new Checkout();
-        co.setPublicKey(public_key);
 
         try {
             JSONObject options = new JSONObject();
@@ -74,6 +69,7 @@ public class PaymentActivity extends Activity {
      * Wrap your code in try catch, as shown, to ensure that this method runs correctly
      */
     @SuppressWarnings("unused")
+    @Override
     public void onPaymentSuccess(String razorpayPaymentID) {
         try {
             Toast.makeText(this, "Payment Successful: " + razorpayPaymentID, Toast.LENGTH_SHORT).show();
@@ -88,9 +84,10 @@ public class PaymentActivity extends Activity {
      * Wrap your code in try catch, as shown, to ensure that this method runs correctly
      */
     @SuppressWarnings("unused")
+    @Override
     public void onPaymentError(int code, String response) {
         try {
-            Toast.makeText(this, "Payment failed: " + Integer.toString(code) + " " + response, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Payment failed: " + code + " " + response, Toast.LENGTH_SHORT).show();
         } catch (Exception e) {
             Log.e(TAG, "Exception in onPaymentError", e);
         }

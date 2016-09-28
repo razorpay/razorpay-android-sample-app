@@ -6,14 +6,15 @@
     android:versionName="1.5"
     >
 
+    <!-- INTERNET permission is required for SDK to function -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Add the RECEIVE_SMS permission to enable OTP reading -->
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
 
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="Razorpay Sample App"
         android:theme="@style/AppTheme"
-        android:allowBackup="false"
         >
 
         <activity
@@ -26,9 +27,10 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name="com.razorpay.CheckoutActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+        <!-- Add your API key here -->
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="YOUR_API_KEY"
             />
 
     </application>
