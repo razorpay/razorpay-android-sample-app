@@ -21,6 +21,12 @@ public class PaymentActivity extends Activity implements PaymentResultListener {
 
         setContentView(R.layout.activity_main);
 
+        /*
+         To ensure faster loading of the Checkout form,
+          call this method as early as possible in your checkout flow.
+         */
+        Checkout.preload(getApplicationContext());
+
         // Payment button created by you in XML layout
         Button button = (Button) findViewById(R.id.btn_pay);
 
