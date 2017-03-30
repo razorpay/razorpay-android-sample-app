@@ -56,7 +56,7 @@ public class PaymentActivity extends Activity implements PaymentResultListener {
             options.put("amount", "100");
 
             JSONObject preFill = new JSONObject();
-            preFill.put("email", "sm@razorpay.com");
+            preFill.put("email", "test@razorpay.com");
             preFill.put("contact", "9876543210");
 
             options.put("prefill", preFill);
