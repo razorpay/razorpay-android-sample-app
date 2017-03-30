@@ -3,9 +3,14 @@
 buildscript {
     repositories {
         jcenter()
+        maven { url 'https://maven.fabric.io/public' }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.0'
+
+        // See latest fabric gradle plugin version here:
+        // https://s3.amazonaws.com/fabric-artifacts/public/io/fabric/tools/gradle/maven-metadata.xml
+        classpath 'io.fabric.tools:gradle:1.22.1'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files

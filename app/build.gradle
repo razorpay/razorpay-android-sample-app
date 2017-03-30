@@ -1,7 +1,16 @@
 apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
 
 repositories {
     mavenCentral()
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+Properties props = new Properties()
+try {
+    props.load(file('fabric.properties').newDataInputStream())
+} catch (Exception ex) {
+    throw new GradleException("Missing fabric.properties, check the fabric.properties file.");
 }
 
 android {
@@ -11,6 +20,7 @@ android {
     defaultConfig {
         minSdkVersion 11
         targetSdkVersion 25
+        manifestPlaceholders = [FABRIC_KEY: "${props.getProperty("fabric.key")}"]
     }
 
     buildTypes {
@@ -28,4 +38,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile('com.razorpay:checkout:1.3.0')
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.7@aar') {
+        transitive = true;
+    }
 }
