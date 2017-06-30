@@ -17,7 +17,7 @@ Releases are available at [https://github.com/razorpay/razorpay-android-sample-a
 - Add this line to your app's `build.gradle` inside the `dependencies` section:
 
   ```
-  compile('com.razorpay:checkout:1.3.2')
+  compile('com.razorpay:checkout:1.3.4')
   ```
 - To hand over control to Razorpay's SDK for collecting payment, refer to [PaymentActivity.java](https://github.com/razorpay/razorpay-android-sample-app/blob/master/app/src/main/java/com/razorpay/sampleapp/PaymentActivity.java)
 - For the permissions required, refer [AndroidManifest.xml](https://github.com/razorpay/razorpay-android-sample-app/blob/master/app/src/main/AndroidManifest.xml)
