@@ -19,7 +19,7 @@ public class PaymentActivity extends Activity implements PaymentResultListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_payment);
 
         /*
          To ensure faster loading of the Checkout form,
@@ -39,8 +39,8 @@ public class PaymentActivity extends Activity implements PaymentResultListener {
     }
 
     public void startPayment() {
-        /**
-         * You need to pass current activity in order to let Razorpay create CheckoutActivity
+        /*
+          You need to pass current activity in order to let Razorpay create CheckoutActivity
          */
         final Activity activity = this;
 
@@ -56,7 +56,7 @@ public class PaymentActivity extends Activity implements PaymentResultListener {
             options.put("amount", "100");
 
             JSONObject preFill = new JSONObject();
-            preFill.put("email", "sm@razorpay.com");
+            preFill.put("email", "test@razorpay.com");
             preFill.put("contact", "9876543210");
 
             options.put("prefill", preFill);
