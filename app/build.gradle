@@ -19,7 +19,7 @@ android {
             proguardFile 'proguard-project.txt'
         }
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFile 'proguard-project.txt'
         }
     }
@@ -27,5 +27,5 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile('com.razorpay:checkout:1.4.7')
+    compile 'com.razorpay:checkout:1.4.7'
 }

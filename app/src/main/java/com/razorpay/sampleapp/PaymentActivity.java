@@ -51,7 +51,7 @@ public class PaymentActivity extends Activity implements PaymentResultListener {
             options.put("name", "Razorpay Corp");
             options.put("description", "Demoing Charges");
             //You can omit the image option to fetch the image from dashboard
-            options.put("image", "https://rzp-mobile.s3.amazonaws.com/images/rzp.png");
+            options.put("image", "https://s3.amazonaws.com/rzp-mobile/images/rzp.png");
             options.put("currency", "INR");
             options.put("amount", "100");
 
