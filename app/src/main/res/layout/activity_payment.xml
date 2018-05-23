@@ -44,8 +44,7 @@
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_centerHorizontal="true"
-                android:padding="15dp"
-                android:background="@drawable/white_border_black_bg"
+                android:background="#FFFFFF"
                 android:src="@drawable/rzp"
                 />
 
