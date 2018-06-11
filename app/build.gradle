@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.razorpay.newsampleapp"
-        minSdkVersion 14
+        minSdkVersion 19
         targetSdkVersion 25
     }
 
@@ -28,5 +28,5 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.razorpay:checkout:1.4.7'
+    compile 'com.razorpay:checkout:1.4.8'
 }
