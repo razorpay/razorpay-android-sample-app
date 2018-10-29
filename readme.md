@@ -27,7 +27,7 @@ Releases are available at [https://github.com/razorpay/razorpay-android-sample-a
 
 ## Support
 
-Razorpay is a tech company. All our engineers handle support too. You can drop us an email on support@razorpay.com and expect a response from the devs responsible for the Android SDK.
+Razorpay is a tech company. All our engineers handle support too. You can write to us at razorpay.com/support and expect a response from the devs responsible for the Android SDK.
 
 ## License
 
