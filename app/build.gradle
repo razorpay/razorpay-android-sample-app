@@ -5,13 +5,13 @@ repositories {
 }
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion '25.0.3'
+    compileSdkVersion 26
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.razorpay.newsampleapp"
         minSdkVersion 19
-        targetSdkVersion 25
+        targetSdkVersion 26
     }
 
     buildTypes {
@@ -27,6 +27,6 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.razorpay:checkout:1.4.9'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.razorpay:checkout:1.5.0'
 }
