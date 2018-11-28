@@ -54,7 +54,6 @@ public class PaymentActivity extends Activity implements PaymentResultListener {
             options.put("image", "https://s3.amazonaws.com/rzp-mobile/images/rzp.png");
             options.put("currency", "INR");
             options.put("amount", "100");
-            options.put("timeout",5);
 
             JSONObject preFill = new JSONObject();
             preFill.put("email", "test@razorpay.com");
