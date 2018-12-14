@@ -28,5 +28,5 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.razorpay:checkout:1.4.9'
+    implementation 'com.razorpay:checkout:1.5.1'
 }
