@@ -2,6 +2,9 @@ apply plugin: 'com.android.application'
 
 repositories {
     mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
 }
 
 android {
@@ -27,6 +30,12 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.razorpay:checkout:1.5.1'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    //Enabled for amazon pay
+    /*
+    implementation 'com.android.support:customtabs:26.1.0'
+    implementation(name: 'razorpay-amazonpay', ext: 'aar')
+    implementation(name: 'PayWithAmazon', ext: 'aar')*/
+    implementation 'com.razorpay:checkout:1.5.2'
 }
