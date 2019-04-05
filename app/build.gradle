@@ -8,13 +8,13 @@ repositories {
 }
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
     buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.razorpay.newsampleapp"
         minSdkVersion 19
-        targetSdkVersion 26
+        targetSdkVersion 28
     }
 
     buildTypes {
@@ -37,5 +37,5 @@ dependencies {
     implementation 'com.android.support:customtabs:26.1.0'
     implementation(name: 'razorpay-amazonpay', ext: 'aar')
     implementation(name: 'PayWithAmazon', ext: 'aar')*/
-    implementation 'com.razorpay:checkout:1.5.4'
+    implementation 'com.razorpay:checkout:1.5.5'
 }
