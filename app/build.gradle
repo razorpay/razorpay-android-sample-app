@@ -23,7 +23,7 @@ android {
             proguardFile 'proguard-project.txt'
         }
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFile 'proguard-project.txt'
         }
     }
@@ -37,5 +37,5 @@ dependencies {
     implementation 'com.android.support:customtabs:26.1.0'
     implementation(name: 'razorpay-amazonpay', ext: 'aar')
     implementation(name: 'PayWithAmazon', ext: 'aar')*/
-    implementation 'com.razorpay:checkout:1.5.5'
+    implementation (name: 'checkout-1.5.6', ext: 'aar')
 }
