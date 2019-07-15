@@ -83,11 +83,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:paddingTop="5dp"
+                android:paddingTop="10dp"
                 android:paddingBottom="0dp"
                 android:textSize="12sp"
                 android:textStyle="italic"
-                android:text="This is a real transaction"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:textColor="@android:color/holo_red_dark"
+                android:gravity="center_horizontal"
+                android:text="Transaction is for testing purpose and your deducted amount will get refunded in 3-5 business days "
                 />
 
             <Button
