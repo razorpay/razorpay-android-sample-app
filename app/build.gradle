@@ -36,5 +36,5 @@ dependencies {
     implementation 'com.android.support:customtabs:28.0.0'
     implementation(name: 'razorpay-amazonpay-debug', ext: 'aar')
     implementation(name: 'PayWithAmazon', ext: 'aar')
-    implementation 'com.razorpay:checkout:1.5.8'
+    implementation 'com.razorpay:checkout:1.5.12'
 }
