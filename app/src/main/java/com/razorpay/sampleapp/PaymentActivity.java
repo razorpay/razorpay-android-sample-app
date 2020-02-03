@@ -1,16 +1,20 @@
 package com.razorpay.sampleapp;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.razorpay.Checkout;
 import com.razorpay.PaymentResultListener;
 
 import org.json.JSONObject;
+import org.w3c.dom.Text;
 
 public class PaymentActivity extends Activity implements PaymentResultListener {
     private static final String TAG = PaymentActivity.class.getSimpleName();
@@ -34,6 +38,17 @@ public class PaymentActivity extends Activity implements PaymentResultListener {
             @Override
             public void onClick(View v) {
                 startPayment();
+            }
+        });
+
+        TextView privacyPolicy = (TextView) findViewById(R.id.txt_privacy_policy);
+
+        privacyPolicy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent httpIntent = new Intent(Intent.ACTION_VIEW);
+                httpIntent.setData(Uri.parse("https://razorpay.com/sample-application/"));
+                startActivity(httpIntent);
             }
         });
     }
