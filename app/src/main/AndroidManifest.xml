@@ -13,9 +13,12 @@
         >
 
         <activity
-            android:name="PaymentActivity"
+            android:name=".java.PaymentActivity"
             android:label="Razorpay Sample App"
             >
+
+        </activity>
+        <activity android:name=".kotlin.PaymentActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

@@ -1,4 +1,4 @@
-package com.razorpay.sampleapp;
+package com.razorpay.sampleapp.java;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 import com.razorpay.Checkout;
 import com.razorpay.PaymentResultListener;
+import com.razorpay.sampleapp.R;
 
 import org.json.JSONObject;
 
