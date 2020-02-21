@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/Razorpay_Android.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/aar.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/amazonpay/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/amazonpay/src/main/java/com/razorpay/RazorpayAmazon.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/app/src/checkoutOtpelf/java/com/razorpay/example/PaymentActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/app/src/customuiOtpelf/java/com/razorpay/example/PaymentOptions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/checkout-lib/config.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/checkout-otpelf-base/src/main/java/com/razorpay/BaseCheckoutOtpelfActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/checkout/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/checkout/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/checkout/src/main/java/com/razorpay/AppSignatureHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/checkout/src/main/java/com/razorpay/BaseCheckoutActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/checkout/src/main/java/com/razorpay/Checkout.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/checkout/src/main/java/com/razorpay/CheckoutBridge.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/checkout/src/main/java/com/razorpay/CheckoutPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/checkout/src/main/java/com/razorpay/CheckoutPresenterImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/checkout/src/main/java/com/razorpay/SMSBroadCastReceiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/checkout/src/main/java/com/razorpay/SMSBroadCastReceiver.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/checkout/src/main/java/com/razorpay/SMSBroadcastReceiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/config.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/core/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/core/build/generated/source/configdroid/debug/com/razorpay/ConfigDroid.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/core/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/core/src/main/java/com/razorpay/AdvertisingIdUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/core/src/main/java/com/razorpay/AnalyticsConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/core/src/main/java/com/razorpay/AnalyticsEvent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/core/src/main/java/com/razorpay/BaseConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/core/src/main/java/com/razorpay/BaseUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/core/src/main/java/com/razorpay/Lumberjack.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/core/src/main/java/com/razorpay/RzpPlugin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/core/src/main/java/com/razorpay/RzpPluginRegisterCallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/core/src/main/java/com/razorpay/RzpUpiSupportedAppsCallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/core/src/main/java/com/razorpay/SMSBroadcastReceiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/core/src/main/java/com/razorpay/SmsAgent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/customui-otpelf-lib/mapping.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/customui-otpelf-lib/src/main/java/com/razorpay/Razorpay.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/customui/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/customui/src/main/java/com/razorpay/AppSelectorFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/customui/src/main/java/com/razorpay/BaseRazorpay.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/customui/src/main/java/com/razorpay/RzpUpiSupportedAppsCallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/dexguard/DexGuard-8.1.13/lib/dexguard-license.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/dexguard/dexguard-license.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/googlepay/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/googlepay/src/main/java/com/razorpay/RzpGooglePay.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/googlepay/src/main/java/com/razorpay/RzpPayloadUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/gradle.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/nodescript/package-lock.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/otpelf/src/main/java/com/razorpay/RzpAssist.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_Android/release.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_ReactNative/react-native-razorpay/example/SampleProject/android/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_ReactNative/react-native-razorpay/example/SampleProject/android/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Razorpay_ReactNative/react-native-razorpay/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/razorpay/sampleapp/BuildConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/proguard-project.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/razorpay/sampleapp/PaymentActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/razorpay/sampleapp/Razorpay/Upi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_payment.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../narayan/narayan/Rakefile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../narayan/narayan/people.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../narayan/narayan/repos.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../narayan/narayan/teams.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../safetyNet/android-play-safetynet/client/java/SafetyNetSample/Application/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../safetyNet/android-play-safetynet/client/java/SafetyNetSample/Application/build/generated/source/buildConfig/debug/com/example/android/safetynetsample/BuildConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../safetyNet/android-play-safetynet/client/java/SafetyNetSample/gradle.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/.idea/misc.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/.idea/sonarIssues.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/app/build/generated/source/buildConfig/prod/com/razorpay/upisampleapp/BuildConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/app/src/main/java/com/razorpay/upi/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/gradle/wrapper/gradle-wrapper.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/AccountBalance.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/AccountCredentials.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/AdvertisingIdUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/AnalyticsConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/AnalyticsEvent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/AnalyticsUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Bank.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/BankAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/BankAccounts.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Banks.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/BaseUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Beneficiaries.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Beneficiary.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/BenificiaryList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/CBCard.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/CBError.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/CBRazorpayUpiResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/CBTransactionResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/CBVpa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Callback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Card.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/CollectRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Concern.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Concerns.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Constants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Error.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/ErrorAction.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Handle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Handles.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Lumberjack.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/NetworkApi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/PayRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/RazorpayUpi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/RazorpayUpiCallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/RazorpayUpiResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Sim.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/SimDetails.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Transaction.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/TransactionConcern.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/TransactionEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/TransactionResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Transactions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/UpiEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/UtilApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/UtilTelephonyInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/ValidateBeneficiary.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/Vpa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/VpaAvailability.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/VpaList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/WrapperAxis.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/WrapperNPCI.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/WrapperSDK.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/java/com/razorpay/upi/WrapperSDKGeneric.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-sdk/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/Action.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityAddBeneficiaryBank.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityAddBeneficiaryVpa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityBankAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityBankList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityBankSelect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityBeneficiaryManagement.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityBlockBeneficiaries.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityCreateVpa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityGenerateQr.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityHome.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityRequestMoney.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityRequestMoneyStatus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivitySendMoney.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivitySendMoneyStatus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivitySetPin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityTransactionConcerns.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityTransactionDetail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityTransactionFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityTransactionHistory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityUserVpa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityVerifyMobileNumber.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ActivityVpaDetails.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/AdapterBankAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/AdapterBankGrid.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/AdapterBankList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/AdapterBenificiaryList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/AdapterBlockedBeneficiaries.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/AdapterPendingTransactionList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/AdapterTransactionConcerns.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/AdapterTransactionList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/AdapterUserVpa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/AdapterVpaSuggestion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/DataSourceAddBenificiary.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/DataSourceBankAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/DataSourceGetVpa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/DataSourcePayRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/DataSourceSaveBeneficiary.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/DataSourceTransactionDetail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/DataSourceTransactionsHistory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/DataSourceUserPin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/DataSourceVpa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ModelAccountBalance.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ModelAccountCred.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ModelBankAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ModelTransactionResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ModelValidateBenef.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/NavigatorBankAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/NavigatorTransactionConcerns.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/NavigatorUserVpa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/RazorpayPspUpi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/RepositoryBankAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/RepositoryBankList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/RepositoryBeneficiary.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/RepositoryPay.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/RepositoryRequestMoney.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/RepositorySendMoney.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/RepositorySetPin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/RepositoryTransaction.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/RepositoryTransactionDetail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/RepositoryTransactionsHistory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/RepositoryVpa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/UtilApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/UtilConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewHolderBankAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewHolderBankGrid.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewHolderBankListItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewHolderBenificiaryItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewHolderBlockedBeneficiary.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewHolderTransactionConcerns.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewHolderTransactionItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewHolderTransactionPendingItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewHolderUserVpa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewHolderUserVpaWOAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewHolderVpaSuggestion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewModelAddBenefVpa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewModelBankAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewModelCreateVpa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewModelHome.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewModelRequestMoney.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewModelSendMoney.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewModelSetPin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewModelTransactionConcerns.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewModelTransactionDetail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewModelTransactionsList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/java/com/razorpay/upi/psp/ViewModelUserVpa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_add_benef_bank.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_add_beneficiary_vpa.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_bank_account.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_bank_list.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_bank_select.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_beneficiary_managment.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_blocked_beneficiaries.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_create_vpa.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_generate_qr.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_home.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_request_money.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_send_money.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_set_upi_pin.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_transaction_concerns.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_transaction_detail.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_transaction_filter.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_transaction_list.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_user_vpa.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_verify_mobile_number.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/activity_vpa_details.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/item_bank.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/item_bank_list.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/item_bank_select.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/item_beneficiary_action.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/item_benificiary_list.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/item_blocked_beneficiary.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/item_raise_concern.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/item_tranfer_dialog.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/item_transaction_concern.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/item_transaction_history.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/item_transaction_pending.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/item_user_vpa.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/item_user_vpa_without_bank.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/item_user_vpa_wo_account.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/item_vpa_suggestion.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/upi_action_bar.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/view_block_beneficiary.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/view_collect_request_status.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/layout/view_money_transfer_status.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../upi-p2p/upi-android-sdk/upi-psp-views/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/razorpay-android-custom-sample-app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/razorpay-android-custom-sample-app/src/main/java/com/razorpay/sampleapp/PaymentOptions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
