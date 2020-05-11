@@ -34,6 +34,16 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
+    //Enabled for google pay SDK integration
+    implementation 'com.android.support:customtabs:28.0.0'
+    //implementation(name: 'razorpay-googlepay-1.3.0', ext: 'aar')
+    //implementation(name: 'tez-client-api-0.9.4', ext: 'aar')
+
+    //Enable for Amazon pay SDK integration
+    //implementation(name: 'razorpay-amazonpay-1.3.0', ext: 'aar')
+    //implementation(name: 'PayWithAmazon', ext: 'aar')
+
     implementation 'com.razorpay:checkout:1.5.16'
+    implementation "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
