@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.razorpay.sampleapp.java.ActivitySettings">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:padding="20dp"
+            android:src="@drawable/ic_rzp_logo_negative"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_back_arrow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_back_arrow"
+            app:layout_constraintBottom_toBottomOf="@id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="Settings"
+            android:textColor="@color/text_Heading"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.049"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/tv_desc_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/lato_normal"
+            android:text="Customize Razorpay Checkout to suit your brand theme"
+            android:textColor="@color/text_description"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="20dp"
+            android:background="#E7EBF1"
+            app:layout_constraintTop_toBottomOf="@id/tv_desc_settings" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="COMPANY LOGO"
+            android:textColor="@color/text_description"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.058"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+        <LinearLayout
+            android:id="@+id/ll_company_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_elevated"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_normal"
+                android:text="Company Image URL"
+                android:textColor="@color/hex_61162F56"
+                tools:layout_editor_absoluteX="13dp"
+                android:layout_marginBottom="10dp"
+                tools:layout_editor_absoluteY="256dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:hint="Image URL to your Company's Logo"
+                android:textColorHint="#DE162F56"
+                android:textColor="#DE162F56"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_normal"
+                android:text="Please ensure that this URL is public &amp; a square image of minimum 256x256 px"
+                android:textColor="@color/hex_61162F56"
+                tools:layout_editor_absoluteX="13dp"
+                android:layout_marginBottom="10dp"
+                tools:layout_editor_absoluteY="256dp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_brand_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="BRAND DETAILS"
+            android:textColor="@color/text_description"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.056"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ll_company_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="212dp"
+            android:background="@drawable/bg_elevated"
+            android:orientation="vertical"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_brand_details">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/lato_normal"
+                android:text="Company Name"
+                android:textColor="@color/hex_61162F56" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Razorpay Demo"
+                android:textColor="#DE162F56"
+                android:textColorHint="#DE162F56"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/lato_normal"
+                android:text="This will be visible on Checkout"
+                android:textColor="@color/hex_61162F56"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="256dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/lato_normal"
+                android:text="Theme color"
+                android:textColor="@color/hex_61162F56" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@color/colorPrimary"
+                    android:background="@drawable/bg_elevated"
+                    android:layout_margin="5dp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="#0B070E"
+                    android:textColor="#DE162F56"
+                    android:textColorHint="#DE162F56"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/lato_normal"
+                android:text="Choose a theme color for your brand"
+                android:textColor="@color/hex_61162F56"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="256dp" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

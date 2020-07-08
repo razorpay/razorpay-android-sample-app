@@ -1,37 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.razorpay.sampleapp"
     android:versionCode="20"
-    android:versionName="3.0"
-    >
-
+    android:versionName="3.0">
 
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="Razorpay Sample App"
-        android:theme="@style/AppTheme"
-        >
-
-        <activity
-            android:name=".java.PaymentActivity"
-            android:label="Razorpay Sample App"
-            >
-
-        </activity>
-        <activity android:name=".kotlin.PaymentActivity">
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".java.ActivitySettings"></activity>
+        <activity android:name=".java.ActivityHomePage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".java.PaymentActivity"
+            android:label="Razorpay Sample App" />
+        <activity android:name=".kotlin.PaymentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <!-- Add your API key here -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Add your API key here -->
         <meta-data
             android:name="com.razorpay.ApiKey"
-            android:value="rzp_live_ILgsfZCZoFIKMb"
-            />
-
+            android:value="rzp_live_ILgsfZCZoFIKMb" />
     </application>
 
 </manifest>
