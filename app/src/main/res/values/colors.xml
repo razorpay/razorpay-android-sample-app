@@ -5,8 +5,9 @@
     <color name="text_Heading">#162F56</color>
     <color name="text_description">#8A162F56</color>
     <color name="text_total_amount_color">#61162F56</color>
-    <color name="note_bg">#8AD12D2D</color>
-    <color name="img_bg">#1A162F56</color>
+    <color name="note_bg">#e9c2c3</color>
+    <color name="note_fg">#f5e5e5</color>
+    <color name="img_bg">#11000000</color>
     <color name="item_head_color">#DE162F56</color>
     <color name="hex_61162F56">#61162F56</color>
 </resources>

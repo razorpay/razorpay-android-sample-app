@@ -7,7 +7,7 @@
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="Razorpay Sample App"
-        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        android:theme="@style/AppTheme">
         <activity android:name=".java.ActivitySettings"></activity>
         <activity android:name=".java.ActivityHomePage">
             <intent-filter>

@@ -5,7 +5,7 @@
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
-<!--    <style name="AppBaseTheme" parent="android:Theme.AppCompat.L">-->
+<!--    <style name="AppBaseTheme" parent="android:Theme.AppCompat.Light">-->
 <!--        &lt;!&ndash;-->
 <!--            Theme customizations available in newer API levels can go in-->
 <!--            res/values-vXX/styles.xml, while customizations related to-->
@@ -16,8 +16,12 @@
 <!--    </style>-->
 
 <!--    &lt;!&ndash; Application theme. &ndash;&gt;-->
-<!--    <style name="AppTheme" parent="AppBaseTheme">-->
+<!--    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">-->
 <!--        &lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;-->
 <!--    </style>-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
 
 </resources>
