@@ -1,6 +1,6 @@
 ---
 name: "🐛 Bug Report"
-about: Report a reproducible bug or regression in Razorpay Cordova Plugin.
+about: Report a reproducible bug or regression in Razorpay Android SDK.
 title: ''
 labels: 'Needs: Triage :mag:'
 
@@ -19,16 +19,13 @@ WILL LIKELY BE CLOSED.
 ## Description
 
 Please provide a clear and concise description of what the bug is. Include screenshots if needed.
-Please test using the latest Razorpay Cordova plugin release to make sure your issue has not already been fixed. 
+Please test using the latest Razorpay Android SDK to make sure your issue has not already been fixed. 
 
-## Razorpay Package Version :
-Open `Package.json`. > Copy `com.razorpay.cordova` version here or github URL. 
+## Razorpay SDK Version :
+Open `build.gradle`. > Copy `com.razorpay` version here or github URL. 
 
-## Xcode Version (iOS) :
+## Android OS Version :
 Open Xcode > Go to `About Xcode` > copy the Xcode version here.
-
-## Java and Gradle Version (android) :
-Specify your Java and Gradle version.
 
 ### What you did:
 
