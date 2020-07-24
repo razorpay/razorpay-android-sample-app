@@ -25,7 +25,7 @@ Please test using the latest Razorpay Android SDK to make sure your issue has no
 Open `build.gradle`. > Copy `com.razorpay` version here or github URL. 
 
 ## Android OS Version :
-Open Xcode > Go to `About Xcode` > copy the Xcode version here.
+Any specific android version if this issue is only occuring on a specific version. 
 
 ### What you did:
 
