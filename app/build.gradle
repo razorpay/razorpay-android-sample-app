@@ -43,7 +43,7 @@ dependencies {
     //implementation(name: 'razorpay-amazonpay-1.3.0', ext: 'aar')
     //implementation(name: 'PayWithAmazon', ext: 'aar')
 
-    implementation 'com.razorpay:checkout:1.5.16'
+    implementation 'com.razorpay:checkout:1.6.0'
     implementation "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
