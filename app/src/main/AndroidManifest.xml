@@ -17,20 +17,23 @@
             android:name=".java.PaymentActivity"
             android:label="Razorpay Sample App"
             >
-
-        </activity>
-        <activity android:name=".kotlin.PaymentActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".kotlin.PaymentActivity">
+
+        </activity>
 
         <!-- Add your API key here -->
         <meta-data
             android:name="com.razorpay.ApiKey"
-            android:value="rzp_live_ILgsfZCZoFIKMb"
+            android:value="rzp_live_JuAXJzGZ2hQg5l"
             />
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
 
     </application>
 
