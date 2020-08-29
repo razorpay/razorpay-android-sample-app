@@ -10,13 +10,13 @@ repositories {
 }
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion '28.0.3'
+    compileSdkVersion 30
+    buildToolsVersion '29.0.3'
 
     defaultConfig {
         applicationId "com.razorpay.newsampleapp"
         minSdkVersion 19
-        targetSdkVersion 28
+        targetSdkVersion 30
     }
 
     buildTypes {
@@ -29,13 +29,18 @@ android {
             proguardFile 'proguard-project.txt'
         }
     }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
 }
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
     //Enabled for google pay SDK integration
-    implementation 'com.android.support:customtabs:28.0.0'
+    implementation 'androidx.browser:browser:1.2.0'
     //implementation(name: 'razorpay-googlepay-1.3.0', ext: 'aar')
     //implementation(name: 'tez-client-api-0.9.4', ext: 'aar')
 
