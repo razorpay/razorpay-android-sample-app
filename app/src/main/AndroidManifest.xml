@@ -29,7 +29,7 @@
         <!-- Add your API key here -->
         <meta-data
             android:name="com.razorpay.ApiKey"
-            android:value="rzp_live_JuAXJzGZ2hQg5l"
+            android:value="rzp_live_8HzK2JCLPk76BN"
             />
         <meta-data
             android:name="com.google.android.gms.wallet.api.enabled"
