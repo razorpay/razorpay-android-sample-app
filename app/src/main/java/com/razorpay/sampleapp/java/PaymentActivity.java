@@ -66,6 +66,8 @@ public class PaymentActivity extends Activity implements PaymentResultListener {
             JSONObject options = new JSONObject();
             options.put("name", "Razorpay Corp");
             options.put("description", "Demoing Charges");
+            options.put("send_sms_hash",true);
+            options.put("allow_rotation", true);
             //You can omit the image option to fetch the image from dashboard
             options.put("image", "https://s3.amazonaws.com/rzp-mobile/images/rzp.png");
             options.put("currency", "INR");

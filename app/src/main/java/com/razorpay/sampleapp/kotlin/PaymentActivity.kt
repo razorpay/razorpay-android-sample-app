@@ -46,10 +46,11 @@ class PaymentActivity: Activity(), PaymentResultListener {
             options.put("image","https://s3.amazonaws.com/rzp-mobile/images/rzp.png")
             options.put("currency","INR")
             options.put("amount","100")
+            options.put("send_sms_hash",true);
 
             val prefill = JSONObject()
             prefill.put("email","test@razorpay.com")
-            prefill.put("contact","9876543210")
+            prefill.put("contact","9021066696")
 
             options.put("prefill",prefill)
             co.open(activity,options)
