@@ -3,9 +3,9 @@
 # Razorpay's Sample Android App
 
 This repository demonstrates how to integrate Razorpay's Android SDK.    
-The apk built with code from this repository is published on the [Play Store](https://play.google.com/store/apps/details?id=com.razorpay.newsampleapp).
+The apk built with code from this repository is published [here](https://rzp-mobile.s3.amazonaws.com/checkout-sample/app-release-with-1.6.7.apk)
 
-The documentation to our Android SDK is available [here](https://razorpay.com/docs/checkout/android/)
+The documentation to our Android SDK is available [here](https://razorpay.com/docs/payment-gateway/android-integration/standard/)
 
 ## Features
 
@@ -19,7 +19,7 @@ Releases are available at [https://github.com/razorpay/razorpay-android-sample-a
 - Add this line to your app's `build.gradle` inside the `dependencies` section:
 
   ```
-  implementation('com.razorpay:checkout:1.6.6')
+  implementation('com.razorpay:checkout:1.6.7')
   ```
 - To hand over control to Razorpay's SDK for collecting payment, refer to [PaymentActivity.java](https://github.com/razorpay/razorpay-android-sample-app/blob/master/app/src/main/java/com/razorpay/sampleapp/PaymentActivity.java)
 - For the permissions required, refer [AndroidManifest.xml](https://github.com/razorpay/razorpay-android-sample-app/blob/master/app/src/main/AndroidManifest.xml)
