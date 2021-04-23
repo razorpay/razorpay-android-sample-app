@@ -10,20 +10,19 @@ repositories {
 }
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion '29.0.3'
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.razorpay.newsampleapp"
         minSdkVersion 19
-        targetSdkVersion 29
+        targetSdkVersion 28
     }
 
     buildTypes {
         debug {
-            minifyEnabled true
-            debuggable false
-            proguardFile 'proguard-project.txt'
+            minifyEnabled false
+            debuggable true
         }
         release {
             minifyEnabled true
@@ -36,16 +35,21 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
+    //For Razorpay checkout SDK
+    implementation 'com.razorpay:checkout:1.6.7'
+
     //Enabled for google pay SDK integration
-    implementation 'com.android.support:customtabs:29.0.0'
-    //implementation(name: 'razorpay-googlepay-1.3.0', ext: 'aar')
-    //implementation(name: 'google-pay-client-api-1.0.0', ext: 'aar')
+    //You need to whitelist your app package name at Razorpay to use this.
+    implementation(name: 'razorpay-googlepay-1.3.0', ext: 'aar')
+    implementation(name: 'google-pay-client-api-1.0.0', ext: 'aar')
 
-    //Enable for Amazon pay SDK integration
-    //implementation(name: 'razorpay-amazonpay-1.3.0', ext: 'aar')
-    //implementation(name: 'PayWithAmazon', ext: 'aar')
+    //Enable for Amazon pay SDK integration.
+    //You need to whitelist your apps package name at razrpay first to use this
+    implementation(name: 'razorpay-amazonpay-1.3.0', ext: 'aar')
+    implementation(name: 'PayWithAmazon', ext: 'aar')
+    implementation 'com.android.support:customtabs:28.0.0'
 
-    implementation 'com.razorpay:checkout:1.6.6'
-    implementation "androidx.core:core-ktx:+"
+    implementation 'com.google.android.gms:play-services-auth-api-phone:17.1.0'
+    implementation "androidx.core:core-ktx:1.3.2"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
