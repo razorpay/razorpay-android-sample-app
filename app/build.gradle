@@ -36,7 +36,7 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
     //For Razorpay checkout SDK
-    implementation 'com.razorpay:checkout:1.6.10'
+    implementation 'com.razorpay:checkout:1.6.12'
 
     //Enabled for google pay SDK integration
     //You need to whitelist your app package name at Razorpay to use this.
