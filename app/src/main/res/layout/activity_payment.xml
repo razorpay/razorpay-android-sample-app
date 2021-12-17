@@ -45,8 +45,7 @@
                 android:layout_height="60dp"
                 android:layout_centerHorizontal="true"
                 android:background="#FFFFFF"
-                android:src="@drawable/rzp"
-                />
+                android:src="@drawable/rzp" />
 
         </RelativeLayout>
 
