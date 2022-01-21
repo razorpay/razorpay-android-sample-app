@@ -8,7 +8,7 @@ on:
 jobs:
   semgrep:
     name: Scan
-    runs-on: [ubuntu-latest]
+    runs-on: [ubuntu-latest]                                 // nosemgrep: semgrep.dev/s/swati31196:github_provided_runner
     steps:
       - uses: actions/checkout@v2
       - uses: returntocorp/semgrep-action@v1
@@ -19,7 +19,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   workflow_status:
-    runs-on: [ ubuntu-latest ]
+    runs-on: [ ubuntu-latest ]                               // nosemgrep: semgrep.dev/s/swati31196:github_provided_runner
     name: Update Status Check
     needs: [ semgrep ]
     if: always()
