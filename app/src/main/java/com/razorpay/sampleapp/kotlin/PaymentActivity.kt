@@ -23,7 +23,7 @@ class PaymentActivity : Activity(), PaymentResultListener {
         * */
         Checkout.preload(applicationContext)
 
-        var button: Button = findViewById(R.id.btn_pay)
+        val button: Button = findViewById(R.id.btn_pay)
         button.setOnClickListener {
             startPayment()
         }
