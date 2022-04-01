@@ -36,7 +36,7 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
     //For Razorpay checkout SDK
-    implementation 'com.razorpay:checkout:1.6.10'
+    implementation 'com.razorpay:checkout:1.6.18'
 
     //Enabled for google pay SDK integration
     //You need to whitelist your app package name at Razorpay to use this.
@@ -50,7 +50,7 @@ dependencies {
     //implementation(name: 'checkout-otpelf',ext: 'aar')
    // implementation 'com.android.support:customtabs:28.0.0'
 
-    implementation 'com.google.android.gms:play-services-auth-api-phone:17.1.0'
+    implementation 'com.google.android.gms:play-services-auth-api-phone:18.0.1'
     implementation "androidx.core:core-ktx:1.3.2"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
