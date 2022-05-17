@@ -1,20 +1,25 @@
 package com.razorpay.sampleapp.kotlin
 
 import android.app.Activity
+import android.app.AlertDialog
+import android.content.DialogInterface
 import android.os.Bundle
 import android.os.PersistableBundle
+import android.text.TextUtils
 import android.util.Log
 import android.widget.Button
+import android.widget.EditText
 import android.widget.Toast
-import com.razorpay.Checkout
-import com.razorpay.PaymentResultListener
+import com.razorpay.*
+import com.razorpay.sampleapp.MainActivity
 import com.razorpay.sampleapp.R
 import org.json.JSONObject
 import java.lang.Exception
 
-class PaymentActivity: Activity(), PaymentResultListener {
+class PaymentActivity: Activity(), PaymentResultWithDataListener, ExternalWalletListener, DialogInterface.OnClickListener {
 
     val TAG:String = PaymentActivity::class.toString()
+    private lateinit var alertDialogBuilder: AlertDialog.Builder
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,8 +29,11 @@ class PaymentActivity: Activity(), PaymentResultListener {
         * call this method as early as possible in your checkout flow
         * */
         Checkout.preload(applicationContext)
-
-        var button: Button = findViewById(R.id.btn_pay)
+        alertDialogBuilder = AlertDialog.Builder(this@PaymentActivity)
+        alertDialogBuilder.setTitle("Payment Result")
+        alertDialogBuilder.setCancelable(true)
+        alertDialogBuilder.setPositiveButton("Ok",this)
+        val button: Button = findViewById(R.id.btn_pay)
         button.setOnClickListener {
             startPayment()
         }
@@ -37,22 +45,31 @@ class PaymentActivity: Activity(), PaymentResultListener {
         * */
         val activity:Activity = this
         val co = Checkout()
-
+        val etApiKey = findViewById<EditText>(R.id.et_api_key)
+        val etCustomOptions = findViewById<EditText>(R.id.et_custom_options)
+        if (!TextUtils.isEmpty(etApiKey.text.toString())){
+            co.setKeyID(etApiKey.text.toString())
+        }
         try {
-            val options = JSONObject()
-            options.put("name","Razorpay Corp")
-            options.put("description","Demoing Charges")
-            //You can omit the image option to fetch the image from dashboard
-            options.put("image","https://s3.amazonaws.com/rzp-mobile/images/rzp.png")
-            options.put("currency","INR")
-            options.put("amount","100")
-            options.put("send_sms_hash",true);
+            var options = JSONObject()
+            if (!TextUtils.isEmpty(etCustomOptions.text.toString())){
+                options = JSONObject(etCustomOptions.text.toString())
+            }else{
+                options.put("name","Razorpay Corp")
+                options.put("description","Demoing Charges")
+                //You can omit the image option to fetch the image from dashboard
+                options.put("image","https://s3.amazonaws.com/rzp-mobile/images/rzp.png")
+                options.put("currency","INR")
+                options.put("amount","100")
+                options.put("send_sms_hash",true);
 
-            val prefill = JSONObject()
-            prefill.put("email","test@razorpay.com")
-            prefill.put("contact","9021066696")
+                val prefill = JSONObject()
+                prefill.put("email","test@razorpay.com")
+                prefill.put("contact","9021066696")
 
-            options.put("prefill",prefill)
+                options.put("prefill",prefill)
+            }
+
             co.open(activity,options)
         }catch (e: Exception){
             Toast.makeText(activity,"Error in payment: "+ e.message,Toast.LENGTH_LONG).show()
@@ -60,21 +77,33 @@ class PaymentActivity: Activity(), PaymentResultListener {
         }
     }
 
-    override fun onPaymentError(errorCode: Int, response: String?) {
+    override fun onPaymentSuccess(p0: String?, p1: PaymentData?) {
         try{
-            Toast.makeText(this,"Payment failed $errorCode \n $response",Toast.LENGTH_LONG).show()
+            alertDialogBuilder.setMessage("Payment Successful : Payment ID: $p0\nPayment Data: ${p1?.data}")
+            alertDialogBuilder.show()
         }catch (e: Exception){
-            Log.e(TAG,"Exception in onPaymentSuccess", e)
+            e.printStackTrace()
         }
     }
 
-    override fun onPaymentSuccess(razorpayPaymentId: String?) {
-        try{
-            Toast.makeText(this,"Payment Successful $razorpayPaymentId",Toast.LENGTH_LONG).show()
+    override fun onPaymentError(p0: Int, p1: String?, p2: PaymentData?) {
+        try {
+            alertDialogBuilder.setMessage("Payment Failed : Payment Data: ${p2?.data}")
+            alertDialogBuilder.show()
         }catch (e: Exception){
-            Log.e(TAG,"Exception in onPaymentSuccess", e)
+            e.printStackTrace()
         }
     }
 
+    override fun onExternalWalletSelected(p0: String?, p1: PaymentData?) {
+        try{
+            alertDialogBuilder.setMessage("External wallet was selected : Payment Data: ${p1?.data}")
+            alertDialogBuilder.show()
+        }catch (e: Exception){
+            e.printStackTrace()
+        }
+    }
 
+    override fun onClick(dialog: DialogInterface?, which: Int) {
+    }
 }
