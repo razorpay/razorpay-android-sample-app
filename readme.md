@@ -25,8 +25,9 @@ Releases are available at [https://mvnrepository.com/artifact/com.razorpay/check
 - For the permissions required, refer [AndroidManifest.xml](https://github.com/razorpay/razorpay-android-sample-app/blob/master/app/src/main/AndroidManifest.xml)
 - For proguard rules when you are releasing the app, refer [proguard-project.txt](https://github.com/razorpay/razorpay-android-sample-app/blob/master/proguard-project.txt)
 
-##Kotlin Support
-Razorpay's SDKs are now compatible with Kotlin support as well. Find the code for this at [https://github.com/razorpay/razorpay-android-sample-app/app/src/main/java/kotlin/PaymentActivity.kt](https://github.com/razorpay/razorpay-android-sample-app/app/src/main/java/kotlin/PaymentActivity.kt)
+## Kotlin Support
+Razorpay's SDKs are now compatible with Kotlin support as well. 
+Find the code for this at [https://github.com/razorpay/razorpay-android-sample-app/app/src/main/java/kotlin/PaymentActivity.kt](https://github.com/razorpay/razorpay-android-sample-app/app/src/main/java/kotlin/PaymentActivity.kt)
 
 ## Support
 
