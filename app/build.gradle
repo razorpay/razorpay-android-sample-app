@@ -48,7 +48,7 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
     //For Razorpay checkout SDK
-	implementation 'com.razorpay:checkout:1.6.20'
+	implementation 'com.razorpay:checkout:1.6.32'
     implementation "androidx.core:core-ktx:1.7.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.4.1'
