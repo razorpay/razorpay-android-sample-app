@@ -90,7 +90,7 @@ public class PaymentActivity extends Activity implements PaymentResultWithDataLi
             }catch (JSONException e){
                 Toast.makeText(activity, "Error in payment: " + e.getMessage(), Toast.LENGTH_SHORT)
                         .show();
-                e.printStackTrace();
+                
             }
         }else{
             try {
@@ -114,7 +114,7 @@ public class PaymentActivity extends Activity implements PaymentResultWithDataLi
             } catch (Exception e) {
                 Toast.makeText(activity, "Error in payment: " + e.getMessage(), Toast.LENGTH_SHORT)
                         .show();
-                e.printStackTrace();
+                
             }
         }
 
@@ -134,7 +134,7 @@ public class PaymentActivity extends Activity implements PaymentResultWithDataLi
             alertDialogBuilder.setMessage("External Wallet Selected:\nPayment Data: "+paymentData.getData());
             alertDialogBuilder.show();
         }catch (Exception e){
-            e.printStackTrace();
+            
         }
 
     }
@@ -145,7 +145,7 @@ public class PaymentActivity extends Activity implements PaymentResultWithDataLi
             alertDialogBuilder.setMessage("Payment Successful :\nPayment ID: "+s+"\nPayment Data: "+paymentData.getData());
             alertDialogBuilder.show();
         }catch (Exception e){
-            e.printStackTrace();
+            
         }
     }
 
@@ -155,7 +155,7 @@ public class PaymentActivity extends Activity implements PaymentResultWithDataLi
             alertDialogBuilder.setMessage("Payment Failed:\nPayment Data: "+paymentData.getData());
             alertDialogBuilder.show();
         }catch (Exception e){
-            e.printStackTrace();
+            
         }
     }
 }
