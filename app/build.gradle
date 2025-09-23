@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
 
 
@@ -23,12 +22,22 @@ repositories {
 }
 
 android {
-    compileSdkVersion 32
+    namespace 'com.razorpay.sampleapp'
+    compileSdk 36
 
     defaultConfig {
-        applicationId "com.razorpay.newsampleapp"
-        minSdkVersion 19
-        targetSdkVersion 32
+        applicationId "com.razorpay.sampleapp"
+        minSdkVersion 21
+        targetSdk 36
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
     }
 
     buildTypes {
@@ -45,13 +54,16 @@ android {
 }
 
 dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    implementation fileTree(include: ['*.aar'], dir: 'libs')
 
     //For Razorpay checkout SDK
-	implementation 'com.razorpay:checkout:1.6.20'
-    implementation "androidx.core:core-ktx:1.7.0"
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'com.google.android.material:material:1.6.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'com.razorpay:checkout:1.6.40'
+    implementation "androidx.core:core-ktx:1.12.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'com.google.android.gms:play-services-auth:21.1.0'
+    implementation 'com.google.android.gms:play-services-auth-api-phone:18.0.2'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.10.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.activity:activity:1.10.1'
 }

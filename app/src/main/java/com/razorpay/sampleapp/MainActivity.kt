@@ -18,5 +18,9 @@ class MainActivity : Activity() {
         findViewById<Button>(R.id.btn_kotlin).setOnClickListener {
             startActivity(Intent(this, com.razorpay.sampleapp.kotlin.PaymentActivity::class.java))
         }
+
+        findViewById<Button>(R.id.btn_webview_activity).setOnClickListener {
+            startActivity(Intent(this, WebViewActivity::class.java))
+        }
     }
 }

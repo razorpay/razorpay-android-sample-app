@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.razorpay.sampleapp"
     android:versionCode="25"
     android:versionName="3.5">
 
@@ -9,10 +8,12 @@
         android:label="Razorpay Sample App"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".WebViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter
-                >
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -20,10 +21,11 @@
         </activity>
         <activity
             android:name=".java.PaymentActivity"
-            android:label="Razorpay Sample App"
-            android:exported="true">
-        </activity>
-        <activity android:exported="true" android:name=".kotlin.PaymentActivity"/> <!-- Add your API key here -->
+            android:exported="true"
+            android:label="Razorpay Sample App"></activity>
+        <activity
+            android:name=".kotlin.PaymentActivity"
+            android:exported="true" /> <!-- Add your API key here -->
         <meta-data
             android:name="com.razorpay.ApiKey"
             android:value="rzp_live_ILgsfZCZoFIKMb" />
