@@ -33,6 +33,25 @@ class PaymentActivity: Activity(), PaymentResultWithDataListener, ExternalWallet
         alertDialogBuilder.setTitle("Payment Result")
         alertDialogBuilder.setCancelable(true)
         alertDialogBuilder.setPositiveButton("Ok",this)
+        
+        // Prefill the EditText fields
+        val etApiKey = findViewById<EditText>(R.id.et_api_key)
+        val etCustomOptions = findViewById<EditText>(R.id.et_custom_options)
+        
+        etApiKey.setText("rzp_live_ILgsfZCZoFIKMb")
+        etCustomOptions.setText("""
+        {
+            "disable_hardware_acceleration_for_low_end_devices": true,
+            "description": "Test Payment",
+            "currency": "INR",
+            "amount": "100",
+            "name": "Test App - RZP",
+            "theme": {
+                "color": "#F37254"
+            }
+        }
+        """.trimIndent())
+        
         val button: Button = findViewById(R.id.btn_pay)
         button.setOnClickListener {
             startPayment()

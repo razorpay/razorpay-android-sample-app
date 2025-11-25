@@ -1,1 +1,29 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/vivekshindhe/TestingAndroidStandard")
+            credentials {
+                username = System.getenv("GPR_USER") ?: ""
+                password = System.getenv("GPR_API_KEY") ?: ""
+            }
+        }
+        flatDir {
+            dirs 'app/libs'
+        }
+    }
+}
+
+rootProject.name = "razorpay-android-sample-app"
 include ':app'
