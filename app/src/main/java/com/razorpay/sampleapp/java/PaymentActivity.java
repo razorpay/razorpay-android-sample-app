@@ -57,7 +57,7 @@ public class PaymentActivity extends Activity implements PaymentResultWithDataLi
         
         etApiKey.setText("rzp_live_ILgsfZCZoFIKMb");
         etCustomOptions.setText("{\n" +
-                "            \"disable_hardware_acceleration_for_low_end_devices\": true,\n" +
+                "            \"disable_hardware_acceleration\": true,\n" +
                 "            \"description\": \"Test Payment\",\n" +
                 "            \"currency\": \"INR\",\n" +
                 "            \"amount\": \"100\",\n" +

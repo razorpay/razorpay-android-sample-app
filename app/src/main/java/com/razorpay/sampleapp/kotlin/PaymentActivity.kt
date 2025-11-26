@@ -41,7 +41,7 @@ class PaymentActivity: Activity(), PaymentResultWithDataListener, ExternalWallet
         etApiKey.setText("rzp_live_ILgsfZCZoFIKMb")
         etCustomOptions.setText("""
         {
-            "disable_hardware_acceleration_for_low_end_devices": true,
+            "disable_hardware_acceleration": true,
             "description": "Test Payment",
             "currency": "INR",
             "amount": "100",
