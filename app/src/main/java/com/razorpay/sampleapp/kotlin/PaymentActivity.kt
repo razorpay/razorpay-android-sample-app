@@ -38,7 +38,7 @@ class PaymentActivity: Activity(), PaymentResultWithDataListener, ExternalWallet
         val etApiKey = findViewById<EditText>(R.id.et_api_key)
         val etCustomOptions = findViewById<EditText>(R.id.et_custom_options)
         
-        etApiKey.setText("rzp_live_ILgsfZCZoFIKMb")
+        etApiKey.setText("rzp_live_***********KMb")
         etCustomOptions.setText("""
         {
             "disable_hardware_acceleration": true,

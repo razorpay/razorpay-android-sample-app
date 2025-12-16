@@ -55,7 +55,7 @@ public class PaymentActivity extends Activity implements PaymentResultWithDataLi
         EditText etApiKey = findViewById(R.id.et_api_key);
         EditText etCustomOptions = findViewById(R.id.et_custom_options);
         
-        etApiKey.setText("rzp_live_ILgsfZCZoFIKMb");
+        etApiKey.setText("rzp_live_***********KMb");
         etCustomOptions.setText("{\n" +
                 "            \"disable_hardware_acceleration\": true,\n" +
                 "            \"description\": \"Test Payment\",\n" +
