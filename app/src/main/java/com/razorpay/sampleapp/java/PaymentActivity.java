@@ -51,6 +51,22 @@ public class PaymentActivity extends Activity implements PaymentResultWithDataLi
             //do nothing
         });
 
+        // Prefill the EditText fields
+        EditText etApiKey = findViewById(R.id.et_api_key);
+        EditText etCustomOptions = findViewById(R.id.et_custom_options);
+        
+        etApiKey.setText("rzp_live_***********KMb");
+        etCustomOptions.setText("{\n" +
+                "            \"disable_hardware_acceleration\": true,\n" +
+                "            \"description\": \"Test Payment\",\n" +
+                "            \"currency\": \"INR\",\n" +
+                "            \"amount\": \"100\",\n" +
+                "            \"name\": \"Test App - RZP\",\n" +
+                "            \"theme\": {\n" +
+                "                \"color\": \"#F37254\"\n" +
+                "            }\n" +
+                "        }");
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
