@@ -13,6 +13,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
+    - name: Start PMG in server mode
+      uses: safedep/pmg@v1
+      with:
+        server-mode: true
+        api-key: ${{ secrets.SAFEDEP_API_KEY }}
+        tenant-id: ${{ secrets.SAFEDEP_TENANT_ID }}
+
     - name: set up JDK 11
       uses: actions/setup-java@v2
       with:
@@ -24,3 +32,7 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+
+    - name: Enforce PMG policy
+      if: always()
+      run: pmg proxy stop --fail-on-violation
