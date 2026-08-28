@@ -13,6 +13,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
+    - name: Setup PMG proxy
+      id: pmg-setup
+      uses: safedep/pmg@v1
+      with:
+        server-mode: true
+        api-key: ${{ secrets.PMG_PUBLIC_REPOS_TOKEN }}
+        tenant-id: ${{ secrets.PMG_TENANT_ID }}
     - name: set up JDK 11
       uses: actions/setup-java@v2
       with:
@@ -24,3 +32,12 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+
+    - name: Enforce PMG policy
+      if: always()
+      run: |
+        if [ "${{ steps.pmg-setup.outcome }}" = "success" ]; then
+          pmg proxy stop --fail-on-violation
+        else
+          pmg proxy stop || true
+        fi
